@@ -1,16 +1,73 @@
 header h1
 {
     text-align: center;
+    color: blue;
+    width: 98%;
 }
+
 hr
 {
-    border-color: darkgray;
-    padding: 0cm 0.25cm;
+    border-color: black;
+    width: 98%;
 }
+
+.General
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0cm 2cm;
+    width: 65%;
+}
+
 .General #FotoPerfil img
 {
     width: 150px;
     height: 149px;
-    border-color: black;
+}
 
+
+.General #Datos h3
+{
+    color: darkblue;
+}
+
+.General #Datos p
+{
+    padding-left: 0.5cm;
+}
+
+.Control
+{
+	width: 800px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+
+.tabs
+{
+    text-align: center;
+    background-color: lightgray;
+    height: 0.5cm;
+    width: 50%;
+}
+
+#Perfil p
+{
+    text-align: justify;
+}
+
+.button
+{
+    align-self: center;
+}
+
+.button li
+{
+    display:  inline-block;
+}
+
+.active
+{
+    background-color: blue;
 }
