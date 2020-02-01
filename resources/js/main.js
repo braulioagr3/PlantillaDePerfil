@@ -6,7 +6,7 @@ $(document).ready
         $('.secciones article:first').show(); //Se muestra el primer articulo
         $('ul.button li a').click//Se manda llamar al evento en caso de que se de click a un elemento de la lista
         (
-            function()
+            function ()
             {
                 var activeTab;
                 $('.secciones article').hide();//Se ocultan todos los articulos
