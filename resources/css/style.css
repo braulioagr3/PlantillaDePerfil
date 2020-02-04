@@ -1,73 +1,118 @@
-header h1
+header>h1
 {
     text-align: center;
-    color: blue;
+    color: darkblue;
     width: 98%;
 }
 
-hr
+header>hr
 {
     border-color: black;
     width: 98%;
 }
 
-.General
+body>div
+{
+	width: 800px;
+    margin: 10px auto;
+}
+
+div.General
 {
     display: flex;
     align-items: center;
+    align-self: left;
     justify-content: space-around;
-    padding: 0cm 2cm;
-    width: 65%;
+    height: 350px;
 }
 
-.General #FotoPerfil img
+div.General>#FotoPerfil
+{
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 0.1cm;
+    padding: 0.11cm 0.11cm;
+}
+
+div.General>a#FotoPerfil>img
 {
     width: 150px;
     height: 149px;
 }
 
-
-.General #Datos h3
+div.General>hr
 {
-    color: darkblue;
+    height: 80%;
+    border-color: black;
 }
 
-.General #Datos p
+div.General>#Datos>h2
+{
+    text-align: left;
+    padding-left: 20px;
+    color: blue;
+}
+
+div.General>#Datos>h3
+{
+    color: #0d589c;
+}
+
+div.General>#Datos>p
 {
     padding-left: 0.5cm;
 }
 
-.Control
+div.Control>ul.menu
 {
-	width: 800px;
-	max-width: 90%;
-	margin: 30px auto;
+    width: 100%;
+    height: 1cm;
+	background: #f2f2f2;
+	list-style: none;
+    display: flex;
 }
 
-.tabs
-{
-    text-align: center;
-    background-color: lightgray;
-    height: 0.5cm;
-    width: 50%;
-}
-
-#Perfil p
-{
-    text-align: justify;
-}
-
-.button
-{
-    align-self: center;
-}
-
-.button li
+div.Control>ul.menu>li
 {
     display:  inline-block;
+	width: 18%;
 }
 
-.active
+div.Control>ul.menu>li>a
+{
+    color:#0d589c;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	padding: 10px 0px;
+}
+
+div.Control>ul.menu>li>a.active
 {
     background-color: blue;
+    color: white;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.Control>div.secciones>article>h3
+{
+    color:blue;
+}
+
+div.Control>div.secciones>article>ol>li>h4
+{
+    color: #0d589c;
+}
+
+div.Control>div.secciones>article>ol>li>p
+{
+    padding-left: 0.5cm;
+}
+
+div.Control>div.secciones>article#Perfil>p
+{
+    text-align: justify;
 }
