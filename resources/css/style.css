@@ -1,7 +1,7 @@
 header>h1
 {
     text-align: center;
-    color: darkblue;
+    color: blue;
     width: 98%;
 }
 
@@ -50,12 +50,12 @@ div.General>#Datos>h2
 {
     text-align: left;
     padding-left: 20px;
-    color: blue;
+    color: darkblue;
 }
 
 div.General>#Datos>h3
 {
-    color: #0d589c;
+    color: blue;
 }
 
 div.General>#Datos>p
@@ -104,7 +104,7 @@ div.Control>div.secciones>article>h3
 
 div.Control>div.secciones>article>ol>li>h4
 {
-    color: #0d589c;
+    color: blue;
 }
 
 div.Control>div.secciones>article>ol>li>p
