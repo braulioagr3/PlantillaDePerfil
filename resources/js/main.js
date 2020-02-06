@@ -10,11 +10,11 @@ $(document).ready
             function ()
             {
                 var activeTab;
-                $('.secciones article').hide();//Se ocultan todos los articulos
+                $('.secciones article').hide(1000);//Se ocultan todos los articulos
                 activeTab = $(this).attr('href');//Se obtiene el id al que esta referenciado
                 $('ul.menu li a').removeClass('active');
                 $(this).addClass('active');
-                $(activeTab).show();//Se muestra el articulo al cual se hace referencia        
+                $(activeTab).show(2000);//Se muestra el articulo al cual se hace referencia        
                 return false;
             }
         );
