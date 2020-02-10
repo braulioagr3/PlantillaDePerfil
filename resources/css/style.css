@@ -117,3 +117,7 @@ div.Control>div.secciones>article#Perfil>p
 {
     text-align: justify;
 }
+h5.modal-title
+{
+    color: darkblue;
+}
