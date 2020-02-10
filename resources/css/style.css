@@ -117,6 +117,10 @@ div.Control>div.secciones>article#Perfil>p
 {
     text-align: justify;
 }
+b#bext
+{
+    padding-left: 2.5cm;
+}
 h5.modal-title
 {
     color: darkblue;
