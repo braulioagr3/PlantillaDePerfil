@@ -14,7 +14,7 @@ $(document).ready
                 activeTab = $(this).attr('href');//Se obtiene el id al que esta referenciado
                 $('ul.menu li a').removeClass('active');
                 $(this).addClass('active');
-                $(activeTab).show(2000);//Se muestra el articulo al cual se hace referencia        
+                $(activeTab).show(1000);//Se muestra el articulo al cual se hace referencia        
                 return false;
             }
         );

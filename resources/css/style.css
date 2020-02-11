@@ -26,10 +26,11 @@ div.General
     height: 350px;
 }
 
-div.General>#FotoPerfil
+a#FotoPerfil
 {
     border-color: lightgray;
     border-style: solid;
+    border-width: 0.5px;
     border-radius: 0.1cm;
     padding: 0.11cm 0.11cm;
 }
@@ -96,6 +97,11 @@ div.Control>ul.menu>li>a.active
     border: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+div.secciones
+{
+    padding: 0cm 2.5cm;
 }
 
 div.Control>div.secciones>article>h3
